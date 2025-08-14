@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Name - Portfolio">
+    <meta name="author" content="Your Name">
+
+    <title> Arjun Suwal - Portfolio</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/gt_favicon.png') }}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <!-- Icon font -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <!--[if lt IE 9]> <script src="{{ url_for('static', filename='js/html5shiv.js') }}"></script> <![endif]-->
+</head>
+<body>
+
+<header id="header">
+    <div id="head" class="parallax" parallax-speed="1">
+        <h1 id="logo" class="text-center">
+            <img class="img-circle" src="{{ url_for('static', filename='images/yourpic.jpg') }}" alt="Arjun Suwal">
+            <span class="title"> Arjun Suwal</span>
+            <span class="tagline">Data Analyst & AI Enthusiast</span>
+        </h1>
+    </div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technical-skills">Technical Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+
+<main id="main">
+
+    <div class="container">
+
+        <div class="row topspace">
+            <div class="col-sm-8 col-sm-offset-2">
+
+                <section id="about" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">About Me</h1>
+                    </header>
+                    <div class="entry-content">
+                        <p>I am a Quality-focused QA Test Engineer with over 5 years of experience in Web UI & API testing. I have a proven ability to find and isolate defects through comprehensive exploratory testing. My expertise lies in developing and implementing test automation frameworks, and I have led teams to deliver high-quality software products on time. I am currently pursuing a Post Graduate Certificate in Artificial Intelligence Analysis, Design, and Implementation from Durham College. My passion for AI and continuous learning drives me to stay updated with the latest trends and technologies in the field.</p>
+                    </div>
+                </section><!-- #about -->
+
+                <section id="technical-skills" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Technical Skills</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul class="technical-skills-list">
+                            <li><strong>Programming Languages:</strong> Java, Python, C#, SQL, HTML</li>
+                            <li><strong>Testing Tools:</strong> Selenium, JIRA, TestRail, HP ALM, TestNG, Jenkins, Cucumber</li>
+                            <li><strong>API Testing:</strong> REST, SOAP, Custom Made API Testing Framework (Java JAXB)</li>
+                            <li><strong>Cloud Computing:</strong> Service Virtualization</li>
+                            <li><strong>Data Visualization:</strong> Tableau, PowerBI, R Basics</li>
+                            <li><strong>Mobile Development:</strong> Android Application Development</li>
+                            <li><strong>Other Tools:</strong> Splunk</li>
+                        </ul>
+                    </div>
+                </section><!-- #technical-skills -->
+
+                <section id="experience" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Experience</h1>
+                    </header>
+                    <div class="entry-content">
+                        <h3>Tata Consultancy Services (2017-2023)</h3>
+                        <p>QA Test Engineer</p>
+                        <ul>
+                            <li>Implemented an End-to-End Automation Framework with 9000+ test cases, increasing overall test coverage and reducing manual testing time by 60%.</li>
+                            <li>Designed and implemented a Hybrid test automation framework using Selenium, Java, Cucumber, and Jenkins, leading to a 78% increase in test traceability.</li>
+                            <li>Developed a Custom Made API Testing Framework in Java JAXB, responsible for testing 200+ enterprise-level API calls daily, ensuring consistent API performance and reliability.</li>
+                            <li>Led a team of automation testers, managing the overall automation testing effort to ensure timely and successful completion of all testing activities within budget.</li>
+                            <li>Created and maintained test plans, test cases, and other testing documentation in JIRA and QC, contributing to a well-documented and repeatable testing process.</li>
+                            <li>Proactively identified manual test processes and inefficiencies, improving them through automation, which resulted in streamlined testing workflows.</li>
+                            <li>Played a leadership role in aligning new and existing processes to test automation guidelines, driving standardization across the testing team.</li>
+                        </ul>
+
+                        <h3>Armstrong Fluid Technology (2017-2019)</h3>
+                        <p>Application Support Specialist</p>
+                        <ul>
+                            <li>Successfully executed end-to-end data migration from BaaN IV to Infor LN, ensuring a seamless transition with minimal disruption to business operations.</li>
+                            <li>Conducted rigorous testing and verification procedures, collaborating with cross-functional teams to identify and resolve discrepancies during the migration process.</li>
+                            <li>Oversaw user access management for multiple applications, ensuring compliance with service level agreements (SLAs) through UI navigation and SQL queries.</li>
+                            <li>Maintained comprehensive documentation and records of support requests and incident resolutions, ensuring accurate information for future reference.</li>
+                            <li>Developed strong relationships with customers and stakeholders, providing regular service performance reports and identifying opportunities for process improvements.</li>
+                        </ul>
+                    </div>
+                </section><!-- #experience -->
+
+                <section id="education" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Education</h1>
+                    </header>
+                    <div class="entry-content">
+                        <h3>Durham College (2023-Present)</h3>
+                        <p>Post Graduate Certificate in Artificial Intelligence Analysis, Design, and Implementation</p>
+
+                        <h3>Durham College (2022-2023)</h3>
+                        <p>Post Graduate Certificate in Data Analytics for Business Decision Making</p>
+
+                        <h3>University of Mumbai (2013-2017)</h3>
+                        <p>Bachelor of Engineering in Information Technology</p>
+                    </div>
+                </section><!-- #education -->
+
+                <section id="certifications" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Certifications</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul>
+                            <li>LambdaTest Test Automation Professional Certificate (2023)</li>
+                            <li>Lean Six Sigma (2023)</li>
+                            <li>Java 8+ Essential Training (2021)</li>
+                            <li>Microsoft SQL Server 2016 Essential Training (2020)</li>
+                            <li>Java Programming (2016)</li>
+                            <li>Microsoft Technology Associate: Security Fundamentals (2016)</li>
+                            <li>C Programming (2015)</li>
+                        </ul>
+                    </div>
+                </section><!-- #certifications -->
+
+                <section id="awards" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Awards</h1>
+                    </header>
+                    <div class="entry-content">
+                        <h3>Best Automation Engineer Award</h3>
+                        <p>Awarded by Tata Consultancy Services for outstanding contributions in developing and implementing automation frameworks.</p>
+
+                        <h3>Employee of the Month</h3>
+                        <p>Awarded by Armstrong Fluid Technology for exceptional performance in project delivery and support.</p>
+                    </div>
+                </section><!-- #awards -->
+
+            </div>
+        </div> <!-- /row post  -->
+
+    </div>    <!-- /container -->
+
+</main>
+
+<footer id="footer" class="topspace">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Contact</h3>
+                <div class="widget-body">
+                    <p><a href="mailto:yourname@gmail.com">yourname@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Follow Me</h3>
+                <div class="widget-body">
+                    <p class="follow-me-icons">
+                        <a href="https://www.linkedin.com/in/arjun-suwal-3b7b45143/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/arjunsuwal" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://x.com/arjunsuwal9001" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/arjunsuwal900" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+<footer id="underfooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 widget">
+                <div class="widget-body">
+                    <p class="text-right">&copy; 2025 Arjun Suwal. All rights reserved.</p>
+                </div>
+            </div>
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
